@@ -2,8 +2,8 @@ package main
 
 import (
 	"log"
+	. "multithreading/deadlocks_train/arbitrator"
 	. "multithreading/deadlocks_train/common"
-	. "multithreading/deadlocks_train/deadlock"
 	"sync"
 
 	"github.com/hajimehoshi/ebiten"
